@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #7e57c2; /* Ungu yang lebih tua untuk header */
+    background-color: #9575cd; /* Ungu yang lebih tua untuk header */
     color: white;
     padding: 15px 0;
 }
@@ -183,7 +183,13 @@ section {
 
 #join {
     text-align: center;
+    position: fixed; /* Make the join section fixed */
+    bottom: 20px; /* Position it at the bottom */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    z-index: 1000; /* Ensure it stays above other content */
 }
+
 
 .button {
     display: inline-block;
